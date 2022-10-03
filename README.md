@@ -11,6 +11,8 @@ If you want to try that project you should put "minigame" folder to desktop.
 
 Then when you run script, it is asking your computer username.(If you don't know your's, you can go this path "C:\Users" you can find it here)
 
+You shouldn't change to any pictures names
+
 That's all have fun!
 
 --------
