@@ -112,7 +112,7 @@ def savasbitir():
     refreshcashalt.pack()
     refreshcashalt.place(x=1685,y=852)
     #############
-    fightbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Savaş" , command=fight)
+    fightbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Fight" , command=fight)
     fightbutton.pack()
     fightbutton.place(x=1600,y=882)
     #############
@@ -173,31 +173,31 @@ def savasbitir():
     statalt7_2.place(x=1450,y=157)
     #############
     #sat
-    sat1button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat1)
+    sat1button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat1)
     sat1button.pack()
     sat1button.place(x=430,y=767)
     #############
-    sat2button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat2)
+    sat2button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat2)
     sat2button.pack()
     sat2button.place(x=600,y=767)
     #############
-    sat3button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat3)
+    sat3button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat3)
     sat3button.pack()
     sat3button.place(x=770,y=767)
     #############
-    sat4button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat4)
+    sat4button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat4)
     sat4button.pack()
     sat4button.place(x=940,y=767)
     #############
-    sat5button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat5)
+    sat5button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat5)
     sat5button.pack()
     sat5button.place(x=1110,y=767)
     #############
-    sat6button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat6)
+    sat6button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat6)
     sat6button.pack()
     sat6button.place(x=1280,y=767)
     #############
-    sat7button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat7)
+    sat7button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat7)
     sat7button.pack()
     sat7button.place(x=1450,y=767)
     yenilenocash()
@@ -1773,16 +1773,16 @@ def yenile():
         cashtextt = Label(window, bg="black", fg="yellow", text=cash, font="Times 25") ####cash
         cashtextt.pack()
         cashtextt.place(x=340, y=900)
-        satinal1button = Button(window, width=14, bg="red", fg="white", border=False , text="Satın al" , command=satinal1)
+        satinal1button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal1)
         satinal1button.pack()
         satinal1button.place(x=628, y=990)
-        satinal2button = Button(window, width=14, bg="red", fg="white", border=False , text="Satın al" , command=satinal2)
+        satinal2button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal2)
         satinal2button.pack()
         satinal2button.place(x=848, y=990)
-        satinal3button = Button(window, width=14 , bg="red", fg="white", border=False , text="Satın al" , command=satinal3)
+        satinal3button = Button(window, width=14 , bg="red", fg="white", border=False , text="Buy" , command=satinal3)
         satinal3button.pack()
         satinal3button.place(x=1068, y=990)
-        satinal4button = Button(window, width=14, bg="red", fg="white", border=False , text="Satın al" , command=satinal4)
+        satinal4button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal4)
         satinal4button.pack()
         satinal4button.place(x=1288, y=990)
         randomchar1 = random.choice(chars)
@@ -1943,19 +1943,19 @@ def yenilenocash():
     refreshcashalt.image = refreshcash
     refreshcashalt.pack()
     refreshcashalt.place(x=1685,y=852)
-    fightbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Savaş" , command=fight)
+    fightbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Fight" , command=fight)
     fightbutton.pack()
     fightbutton.place(x=1600,y=882)
-    satinal1button = Button(window, width=14, bg="red", fg="white", border=False , text="Satın al" , command=satinal1)
+    satinal1button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal1)
     satinal1button.pack()
     satinal1button.place(x=628, y=990)
-    satinal2button = Button(window, width=14, bg="red", fg="white", border=False , text="Satın al" , command=satinal2)
+    satinal2button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal2)
     satinal2button.pack()
     satinal2button.place(x=848, y=990)
-    satinal3button = Button(window, width=14 , bg="red", fg="white", border=False , text="Satın al" , command=satinal3)
+    satinal3button = Button(window, width=14 , bg="red", fg="white", border=False , text="Buy" , command=satinal3)
     satinal3button.pack()
     satinal3button.place(x=1068, y=990)
-    satinal4button = Button(window, width=14, bg="red", fg="white", border=False , text="Satın al" , command=satinal4)
+    satinal4button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal4)
     satinal4button.pack()
     satinal4button.place(x=1288, y=990)
     randomchar1 = random.choice(chars)
@@ -2168,7 +2168,7 @@ panelalt1 = Label(window, image=imgalt1, border=False)
 panelalt1.image = imgalt1
 panelalt1.pack()
 panelalt1.place(x=630,y=847)
-satinal1button = Button(window, width=14, bg="red", fg="white", border=False , text="Satın al" , command=satinal1)
+satinal1button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal1)
 satinal1button.pack()
 satinal1button.place(x=628, y=990)
 #############
@@ -2192,7 +2192,7 @@ panelalt2 = Label(window, image=imgalt2, border=False)
 panelalt2.image = imgalt2
 panelalt2.pack()
 panelalt2.place(x=850,y=847)
-satinal2button = Button(window, width=14, bg="red", fg="white", border=False , text="Satın al" , command=satinal2)
+satinal2button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal2)
 satinal2button.pack()
 satinal2button.place(x=848, y=990)
 #############
@@ -2216,7 +2216,7 @@ panelalt3 = Label(window, image=imgalt3, border=False)
 panelalt3.image = imgalt3
 panelalt3.pack()
 panelalt3.place(x=1070,y=847)
-satinal3button = Button(window, width=14 , bg="red", fg="white", border=False , text="Satın al" , command=satinal3)
+satinal3button = Button(window, width=14 , bg="red", fg="white", border=False , text="Buy" , command=satinal3)
 satinal3button.pack()
 satinal3button.place(x=1068, y=990)
 #############
@@ -2240,7 +2240,7 @@ panelalt4 = Label(window, image=imgalt4, border=False)
 panelalt4.image = imgalt4
 panelalt4.pack()
 panelalt4.place(x=1290,y=847)
-satinal4button = Button(window, width=14, bg="red", fg="white", border=False , text="Satın al" , command=satinal4)
+satinal4button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal4)
 satinal4button.pack()
 satinal4button.place(x=1288, y=990)
 ###################################################################
@@ -2374,37 +2374,37 @@ refreshcashalt.image = refreshcash
 refreshcashalt.pack()
 refreshcashalt.place(x=1685,y=852)
 #############
-fightbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Savaş" , command=fight)
+fightbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Fight" , command=fight)
 fightbutton.pack()
 fightbutton.place(x=1600,y=882)
 ###################################################################
 
 #sat
-sat1button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat1)
+sat1button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat1)
 sat1button.pack()
 sat1button.place(x=430,y=767)
 #############
-sat2button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat2)
+sat2button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat2)
 sat2button.pack()
 sat2button.place(x=600,y=767)
 #############
-sat3button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat3)
+sat3button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat3)
 sat3button.pack()
 sat3button.place(x=770,y=767)
 #############
-sat4button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat4)
+sat4button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat4)
 sat4button.pack()
 sat4button.place(x=940,y=767)
 #############
-sat5button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat5)
+sat5button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat5)
 sat5button.pack()
 sat5button.place(x=1110,y=767)
 #############
-sat6button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat6)
+sat6button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat6)
 sat6button.pack()
 sat6button.place(x=1280,y=767)
 #############
-sat7button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sat" , command=sat7)
+sat7button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat7)
 sat7button.pack()
 sat7button.place(x=1450,y=767)
 ###################################################################
