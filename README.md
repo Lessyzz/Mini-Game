@@ -22,3 +22,10 @@ That's all have fun!
 If you want you can improve this project (more can be done).
 
 I used to League of Legends images and characters, this way was easiest for me.
+
+
+![image](https://user-images.githubusercontent.com/102208615/193866848-8f509de3-4e58-46e5-bbbc-2f9a28fa7ea8.png)
+
+![image](https://user-images.githubusercontent.com/102208615/193866866-0072d89a-018e-42f6-a52e-2a9120c75a3e.png)
+
+![image](https://user-images.githubusercontent.com/102208615/193866726-d08ab336-b21c-4b18-b72b-95fcca3c6581.png)
