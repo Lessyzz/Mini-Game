@@ -247,7 +247,7 @@ def fight():
     savasbitirbutton = Button(window, width=14, bg="red", fg="white", border=False , text="End The War" , command=savasbitir)
     savasbitirbutton.pack()
     savasbitirbutton.place(x=1600,y=946)
-    if len(charinstat1) == 1 and fight1 == False:
+    if len(charinstat1) == 1:
         siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
         siyah = siyah.resize((110, 30))
         siyah = ImageTk.PhotoImage(siyah)
