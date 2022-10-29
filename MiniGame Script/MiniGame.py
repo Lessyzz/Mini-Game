@@ -104,7 +104,7 @@ def endwar():
     refreshbutton.pack()
     refreshbutton.place(x=1600,y=850)
     ######
-    refreshcash = Image.open("C:/Users/"+ username+ "/Desktop/minigame/cashkirmizi.png")
+    refreshcash = Image.open("C:/Users/"+ username+ "/Desktop/minigame/redcash.png")
     refreshcash = refreshcash.resize((17, 17))
     refreshcash = ImageTk.PhotoImage(refreshcash)
     refreshcashalt = Label(window, image=refreshcash, border=False)
@@ -1936,7 +1936,7 @@ def nocashrefresh():
     refreshbutton.pack()
     refreshbutton.place(x=1600,y=850)
     #############
-    refreshcash = Image.open("C:/Users/"+ username+ "/Desktop/minigame/cashkirmizi.png")
+    refreshcash = Image.open("C:/Users/"+ username+ "/Desktop/minigame/redcash.png")
     refreshcash = refreshcash.resize((17, 17))
     refreshcash = ImageTk.PhotoImage(refreshcash)
     refreshcashalt = Label(window, image=refreshcash, border=False)
@@ -2366,7 +2366,7 @@ refreshbutton = Button(window, width=14, bg="red", fg="white", border=False , te
 refreshbutton.pack()
 refreshbutton.place(x=1600,y=850)
 #############
-refreshcash = Image.open("C:/Users/"+ username+ "/Desktop/minigame/cashkirmizi.png")
+refreshcash = Image.open("C:/Users/"+ username+ "/Desktop/minigame/redcash.png")
 refreshcash = refreshcash.resize((17, 17))
 refreshcash = ImageTk.PhotoImage(refreshcash)
 refreshcashalt = Label(window, image=refreshcash, border=False)
