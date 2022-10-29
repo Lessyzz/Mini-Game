@@ -4,85 +4,85 @@ from tkinter import *
 from PIL import ImageTk, Image
 import random
 
-def savasbitir():
+def endwar():
     global cash
     global wincash
     global cashtext
     global statalt1_2
     
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((110, 500))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=1600,y=946)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((110, 500))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=1600,y=946)
     #############
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((100, 500))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=430,y=157)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((100, 500))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=430,y=157)
     #############
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((100, 500))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=600,y=157)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((100, 500))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=600,y=157)
     #############
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((100, 500))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=770,y=157)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((100, 500))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=770,y=157)
     #############
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((100, 500))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=940,y=157)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((100, 500))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=940,y=157)
     #############
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((100, 500))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=1110,y=157)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((100, 500))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=1110,y=157)
     #############
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((100, 500))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=1280,y=157)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((100, 500))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=1280,y=157)
     #############
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((100, 500))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=1450,y=157)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((100, 500))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=1450,y=157)
     #############
     cash +=wincash
     #############
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((40, 110))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=340,y=870)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((40, 110))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=340,y=870)
     #############
     cashtext = Label(window, bg="black", fg="yellow", text=cash, font="Times 25") ####cash
     cashtext.pack()
@@ -92,15 +92,15 @@ def savasbitir():
     cashtext2.pack()
     cashtext2.place(x=357, y=970)
     #############
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((110, 40))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=1600,y=914)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((110, 40))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=1600,y=914)
     #############
-    refreshbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Refresh |   2" , command=yenile)
+    refreshbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Refresh |   2" , command=refresh)
     refreshbutton.pack()
     refreshbutton.place(x=1600,y=850)
     ######
@@ -173,34 +173,34 @@ def savasbitir():
     statalt7_2.place(x=1450,y=157)
     #############
     #sat
-    sat1button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat1)
-    sat1button.pack()
-    sat1button.place(x=430,y=767)
+    sellbutton1 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell1)
+    sellbutton1.pack()
+    sellbutton1.place(x=430,y=767)
     #############
-    sat2button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat2)
-    sat2button.pack()
-    sat2button.place(x=600,y=767)
+    sellbutton2 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell2)
+    sellbutton2.pack()
+    sellbutton2.place(x=600,y=767)
     #############
-    sat3button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat3)
-    sat3button.pack()
-    sat3button.place(x=770,y=767)
+    sellbutton3 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell3)
+    sellbutton3.pack()
+    sellbutton3.place(x=770,y=767)
     #############
-    sat4button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat4)
-    sat4button.pack()
-    sat4button.place(x=940,y=767)
+    sellbutton4 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell4)
+    sellbutton4.pack()
+    sellbutton4.place(x=940,y=767)
     #############
-    sat5button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat5)
-    sat5button.pack()
-    sat5button.place(x=1110,y=767)
+    sellbutton5 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell5)
+    sellbutton5.pack()
+    sellbutton5.place(x=1110,y=767)
     #############
-    sat6button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat6)
-    sat6button.pack()
-    sat6button.place(x=1280,y=767)
+    sellbutton6 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell6)
+    sellbutton6.pack()
+    sellbutton6.place(x=1280,y=767)
     #############
-    sat7button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat7)
-    sat7button.pack()
-    sat7button.place(x=1450,y=767)
-    yenilenocash()
+    sellbutton7 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell7)
+    sellbutton7.pack()
+    sellbutton7.place(x=1450,y=767)
+    nocashrefresh()
 
 def fight():
     global fight1
@@ -225,37 +225,37 @@ def fight():
     global charinstat6
     global charinstat7
     global chardmgs
-    global sat1button
-    global sat2button
-    global sat3button
-    global sat4button
-    global sat5button
-    global sat6button
-    global sat7button
+    global sellbutton1
+    global sellbutton2
+    global sellbutton3
+    global sellbutton4
+    global sellbutton5
+    global sellbutton6
+    global sellbutton7
     global fightbutton
     global wincash
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((110, 40))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=1600,y=842)
-    nextroundbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Next Round" , command=yenilenocash)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((110, 40))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=1600,y=842)
+    nextroundbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Next Round" , command=nocashrefresh)
     nextroundbutton.pack()
     nextroundbutton.place(x=1600,y=914)
-    savasbitirbutton = Button(window, width=14, bg="red", fg="white", border=False , text="End The War" , command=savasbitir)
-    savasbitirbutton.pack()
-    savasbitirbutton.place(x=1600,y=946)
+    endwarbutton = Button(window, width=14, bg="red", fg="white", border=False , text="End The War" , command=endwar)
+    endwarbutton.pack()
+    endwarbutton.place(x=1600,y=946)
     if len(charinstat1) == 1:
-        siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-        siyah = siyah.resize((110, 30))
-        siyah = ImageTk.PhotoImage(siyah)
-        siyahalt1 = Label(window, image=siyah, border=False)
-        siyahalt1.image = siyah
-        siyahalt1.pack()
-        siyahalt1.place(x=1600,y=882)
-        sat1button.destroy()
+        black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+        black = black.resize((110, 30))
+        black = ImageTk.PhotoImage(black)
+        blackalt1 = Label(window, image=black, border=False)
+        blackalt1.image = black
+        blackalt1.pack()
+        blackalt1.place(x=1600,y=882)
+        sellbutton1.destroy()
         fight1 = True
         charinstat1_x.append(randomchar1_x)
         enemyr1 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/"+randomchar1_x+".png")
@@ -288,14 +288,14 @@ def fight():
             draw.place(x=465,y=437)
     
     if len(charinstat2) == 1 and fight1 == True:
-        siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-        siyah = siyah.resize((110, 30))
-        siyah = ImageTk.PhotoImage(siyah)
-        siyahalt1 = Label(window, image=siyah, border=False)
-        siyahalt1.image = siyah
-        siyahalt1.pack()
-        siyahalt1.place(x=1600,y=882)
-        sat2button.destroy()
+        black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+        black = black.resize((110, 30))
+        black = ImageTk.PhotoImage(black)
+        blackalt1 = Label(window, image=black, border=False)
+        blackalt1.image = black
+        blackalt1.pack()
+        blackalt1.place(x=1600,y=882)
+        sellbutton2.destroy()
         fight2 = True
         charinstat2_x.append(randomchar2_x)
         enemyr2 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/"+randomchar2_x+".png")
@@ -328,14 +328,14 @@ def fight():
             draw.place(x=635,y=437)
 
     if len(charinstat3) == 1 and fight2 == True:
-        siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-        siyah = siyah.resize((110, 30))
-        siyah = ImageTk.PhotoImage(siyah)
-        siyahalt1 = Label(window, image=siyah, border=False)
-        siyahalt1.image = siyah
-        siyahalt1.pack()
-        siyahalt1.place(x=1600,y=882)
-        sat3button.destroy()
+        black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+        black = black.resize((110, 30))
+        black = ImageTk.PhotoImage(black)
+        blackalt1 = Label(window, image=black, border=False)
+        blackalt1.image = black
+        blackalt1.pack()
+        blackalt1.place(x=1600,y=882)
+        sellbutton3.destroy()
         fight3 = True
         charinstat3_x.append(randomchar3_x)
         enemyr3 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/"+randomchar3_x+".png")
@@ -368,7 +368,7 @@ def fight():
             draw.place(x=805,y=437)
     
     if len(charinstat4) == 1 and fight3 == True:
-        sat4button.destroy()
+        sellbutton4.destroy()
         fight4 = True
         charinstat4_x.append(randomchar4_x)
         enemyr4 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/"+randomchar4_x+".png")
@@ -401,7 +401,7 @@ def fight():
             draw.place(x=972,y=437)
     
     if len(charinstat5) == 1 and fight4 == True:
-        sat5button.destroy()
+        sellbutton5.destroy()
         fight5 = True
         charinstat5_x.append(randomchar5_x)
         enemyr5 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/"+randomchar5_x+".png")
@@ -434,7 +434,7 @@ def fight():
             draw.place(x=1145,y=437)
 
     if len(charinstat6) == 1 and fight5 == True:
-        sat6button.destroy()
+        sellbutton6.destroy()
         fight6 = True
         charinstat6_x.append(randomchar6_x)
         enemyr6 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/"+randomchar6_x+".png")
@@ -467,7 +467,7 @@ def fight():
             draw.place(x=1315,y=437)
 
     if len(charinstat7) == 1 and fight6 == True:
-        sat7button.destroy()
+        sellbutton7.destroy()
         fight7 = True
         charinstat7_x.append(randomchar7_x)
         enemyr7 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/"+randomchar7_x+".png")
@@ -514,13 +514,13 @@ def update():
     try:
         pass
         #if charinstatall.count("Sorcerer") == 0:
-        #    siyah = Image.open("C:/Users/"+ username+ "/Desktop/tftmaybe/beyaz.png")
-        #    siyah = siyah.resize((130, 50))
-        #    siyah = ImageTk.PhotoImage(siyah)
-        #    siyahalt1 = Label(window, image=siyah, border=False)
-        #    siyahalt1.image = siyah
-        #    siyahalt1.pack()
-        #    siyahalt1.place(x=35,y=230)
+        #    black = Image.open("C:/Users/"+ username+ "/Desktop/tftmaybe/beyaz.png")
+        #    black = black.resize((130, 50))
+        #    black = ImageTk.PhotoImage(black)
+        #    blackalt1 = Label(window, image=black, border=False)
+        #    blackalt1.image = black
+        #    blackalt1.pack()
+        #    blackalt1.place(x=35,y=230)
         #else:
         #    (charinstatall.count("Sorcerer") >= 1)
         #    stats1 = Label(window, bg="black", fg="red", text="Sorcerer {Sorcerer} / 9".format(Sorcerer=charinstatall.count("Sorcerer")), font="Times 16")
@@ -532,13 +532,13 @@ def update():
     try:
         pass
         #if charinstatall.count("Assasin") == 0:
-        #    siyah = Image.open("C:/Users/"+ username+ "/Desktop/tftmaybe/beyaz.png")
-        #    siyah = siyah.resize((130, 50))
-        #    siyah = ImageTk.PhotoImage(siyah)
-        #    siyahalt1 = Label(window, image=siyah, border=False)
-        #    siyahalt1.image = siyah
-        #    siyahalt1.pack()
-        #    siyahalt1.place(x=35,y=280)
+        #    black = Image.open("C:/Users/"+ username+ "/Desktop/tftmaybe/beyaz.png")
+        #    black = black.resize((130, 50))
+        #    black = ImageTk.PhotoImage(black)
+        #    blackalt1 = Label(window, image=black, border=False)
+        #    blackalt1.image = black
+        #    blackalt1.pack()
+        #    blackalt1.place(x=35,y=280)
         #else:
         #    (charinstatall.count("Assasin") >= 1)
         #    stats2 = Label(window, bg="black", fg="red", text="Assasin {assasin} / 9".format(assasin=charinstatall.count("Assasin")), font="Times 16")
@@ -547,8 +547,8 @@ def update():
     except:
         pass
 #############
-def sat1():
-    global sat1button
+def sell1():
+    global sellbutton1
     global charinstat1
     global charinstatall
     global charstats
@@ -556,13 +556,13 @@ def sat1():
     global cash
     global charcashs
     global charalldmgs
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((130, 100))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=430,y=657)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((130, 100))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=430,y=657)
     stat1 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/statbox2.png")
     stat1 = stat1.resize((100, 100))
     stat1 = ImageTk.PhotoImage(stat1)
@@ -580,13 +580,13 @@ def sat1():
     cashtextt = Label(window, bg="black", fg="yellow", text=cash, font="Times 25") ####cash
     cashtextt.pack()
     cashtextt.place(x=340, y=900)
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((50, 30))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=110,y=740)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((50, 30))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=110,y=740)
     for item in charinstat1:
         chardmgs1 = chardmgs[item]
     chardmgs1 = int(chardmgs1)
@@ -597,8 +597,8 @@ def sat1():
     charinstat1 = []
     update()
 #############
-def sat2():
-    global sat2button
+def sell2():
+    global sellbutton2
     global charinstat2
     global charinstatall
     global charstats
@@ -606,13 +606,13 @@ def sat2():
     global cash
     global charcashs
     global charalldmgs
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((130, 100))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=600,y=657)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((130, 100))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=600,y=657)
     stat1 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/statbox2.png")
     stat1 = stat1.resize((100, 100))
     stat1 = ImageTk.PhotoImage(stat1)
@@ -630,13 +630,13 @@ def sat2():
     cashtextt = Label(window, bg="black", fg="yellow", text=cash, font="Times 25") ####cash
     cashtextt.pack()
     cashtextt.place(x=340, y=900)
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((50, 30))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=110,y=740)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((50, 30))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=110,y=740)
     for item in charinstat2:
         chardmgs2 = chardmgs[item]
     chardmgs2 = int(chardmgs2)
@@ -647,8 +647,8 @@ def sat2():
     charinstat2 = []
     update()
 #############
-def sat3():
-    global sat3button
+def sell3():
+    global sellbutton3
     global charinstat3
     global charinstatall
     global charstats
@@ -656,13 +656,13 @@ def sat3():
     global cash
     global charcashs
     global charalldmgs
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((130, 100))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=770,y=657)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((130, 100))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=770,y=657)
     stat1 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/statbox2.png")
     stat1 = stat1.resize((100, 100))
     stat1 = ImageTk.PhotoImage(stat1)
@@ -680,13 +680,13 @@ def sat3():
     cashtextt = Label(window, bg="black", fg="yellow", text=cash, font="Times 25") ####cash
     cashtextt.pack()
     cashtextt.place(x=340, y=900)
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((50, 30))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=110,y=740)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((50, 30))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=110,y=740)
     for item in charinstat3:
         chardmgs3 = chardmgs[item]
     chardmgs3 = int(chardmgs3)
@@ -697,8 +697,8 @@ def sat3():
     charinstat3 = []
     update()
 #############
-def sat4():
-    global sat4button
+def sell4():
+    global sellbutton4
     global charinstat4
     global charinstatall
     global charstats
@@ -706,13 +706,13 @@ def sat4():
     global cash
     global charcashs
     global charalldmgs
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((130, 100))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=940,y=657)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((130, 100))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=940,y=657)
     stat1 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/statbox2.png")
     stat1 = stat1.resize((100, 100))
     stat1 = ImageTk.PhotoImage(stat1)
@@ -730,13 +730,13 @@ def sat4():
     cashtextt = Label(window, bg="black", fg="yellow", text=cash, font="Times 25") ####cash
     cashtextt.pack()
     cashtextt.place(x=340, y=900)
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((50, 30))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=110,y=740)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((50, 30))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=110,y=740)
     for item in charinstat4:
         chardmgs4 = chardmgs[item]
     chardmgs4 = int(chardmgs4)
@@ -747,8 +747,8 @@ def sat4():
     charinstat4 = []
     update()
 #############
-def sat5():
-    global sat5button
+def sell5():
+    global sellbutton5
     global charinstat5
     global charinstatall
     global charstats
@@ -756,13 +756,13 @@ def sat5():
     global cash
     global charcashs
     global charalldmgs
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((130, 100))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=1110,y=657)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((130, 100))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=1110,y=657)
     stat1 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/statbox2.png")
     stat1 = stat1.resize((100, 100))
     stat1 = ImageTk.PhotoImage(stat1)
@@ -780,13 +780,13 @@ def sat5():
     cashtextt = Label(window, bg="black", fg="yellow", text=cash, font="Times 25") ####cash
     cashtextt.pack()
     cashtextt.place(x=340, y=900)
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((50, 30))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=110,y=740)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((50, 30))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=110,y=740)
     for item in charinstat5:
         chardmgs5 = chardmgs[item]
     chardmgs5 = int(chardmgs5)
@@ -797,8 +797,8 @@ def sat5():
     charinstat5 = []
     update()
 #############
-def sat6():
-    global sat6button
+def sell6():
+    global sellbutton6
     global charinstat6
     global charinstatall
     global charstats
@@ -806,13 +806,13 @@ def sat6():
     global cash
     global charcashs
     global charalldmgs
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((130, 100))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=1280,y=657)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((130, 100))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=1280,y=657)
     stat1 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/statbox2.png")
     stat1 = stat1.resize((100, 100))
     stat1 = ImageTk.PhotoImage(stat1)
@@ -830,13 +830,13 @@ def sat6():
     cashtextt = Label(window, bg="black", fg="yellow", text=cash, font="Times 25") ####cash
     cashtextt.pack()
     cashtextt.place(x=340, y=900)
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((50, 30))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=110,y=740)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((50, 30))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=110,y=740)
     for item in charinstat6:
         chardmgs6 = chardmgs[item]
     chardmgs6 = int(chardmgs6)
@@ -847,8 +847,8 @@ def sat6():
     charinstat6 = []
     update()
 #############
-def sat7():
-    global sat7button
+def sell7():
+    global sellbutton7
     global charinstat7
     global charinstatall
     global charstats
@@ -856,13 +856,13 @@ def sat7():
     global cash
     global charcashs
     global charalldmgs
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((130, 100))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=1450,y=657)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((130, 100))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=1450,y=657)
     stat1 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/statbox2.png")
     stat1 = stat1.resize((100, 100))
     stat1 = ImageTk.PhotoImage(stat1)
@@ -880,13 +880,13 @@ def sat7():
     cashtextt = Label(window, bg="black", fg="yellow", text=cash, font="Times 25") ####cash
     cashtextt.pack()
     cashtextt.place(x=340, y=900)
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((50, 30))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=110,y=740)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((50, 30))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=110,y=740)
     for item in charinstat7:
         chardmgs7 = chardmgs[item]
     chardmgs7 = int(chardmgs7)
@@ -899,14 +899,14 @@ def sat7():
 #############
 
 
-def satinal1():
+def buy1():
     global charinstat1
     global charinstatall
     global charstats
     global panelalt1
     global randomchar1
     global charinstat1
-    global satinal1button
+    global buy1button
     global cashprice1
     global cashalt1
     global cashtext
@@ -921,7 +921,7 @@ def satinal1():
         cashprice1.destroy()
         cashalt1.destroy()
         panelalt1.destroy()
-        satinal1button.destroy()
+        buy1button.destroy()
         char1_1.destroy()
         cashtext.destroy()
         cash = cash - charcashsint
@@ -939,13 +939,13 @@ def satinal1():
             panelalts.pack()
             panelalts.place(x=430,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat1:
                 chardmgs1 = chardmgs[item]
             chardmgs1 = int(chardmgs1)
@@ -964,13 +964,13 @@ def satinal1():
             panelalts.pack()
             panelalts.place(x=600,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat2:
                 chardmgs2 = chardmgs[item]
             chardmgs2 = int(chardmgs2)
@@ -989,13 +989,13 @@ def satinal1():
             panelalts.pack()
             panelalts.place(x=770,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=100,y=450)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=100,y=450)
             for item in charinstat3:
                 chardmgs3 = chardmgs[item]
             chardmgs3 = int(chardmgs3)
@@ -1014,13 +1014,13 @@ def satinal1():
             panelalts.pack()
             panelalts.place(x=940,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat4:
                 chardmgs4 = chardmgs[item]
             chardmgs4 = int(chardmgs4)
@@ -1039,13 +1039,13 @@ def satinal1():
             panelalts.pack()
             panelalts.place(x=1110,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110, y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110, y=740)
             for item in charinstat5:
                 chardmgs5 = chardmgs[item]
             chardmgs5 = int(chardmgs5)
@@ -1064,13 +1064,13 @@ def satinal1():
             panelalts.pack()
             panelalts.place(x=1280,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat6:
                 chardmgs6 = chardmgs[item]
             chardmgs6 = int(chardmgs6)
@@ -1089,13 +1089,13 @@ def satinal1():
             panelalts.pack()
             panelalts.place(x=1450,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat7:
                 chardmgs7 = chardmgs[item]
             chardmgs7 = int(chardmgs7)
@@ -1106,10 +1106,10 @@ def satinal1():
         else:
             pass
 #############
-def satinal2():
+def buy2():
     global panelalt2
     global randomchar2
-    global satinal2button
+    global buy2button
     global cashprice2
     global cashalt2
     global cashtext
@@ -1124,7 +1124,7 @@ def satinal2():
         cashprice2.destroy()
         cashalt2.destroy()
         panelalt2.destroy()
-        satinal2button.destroy()
+        buy2button.destroy()
         char2_1.destroy()
         cashtext.destroy()
         cash = cash - charcashsint
@@ -1142,13 +1142,13 @@ def satinal2():
             panelalts.pack()
             panelalts.place(x=430,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat1:
                 chardmgs1 = chardmgs[item]
             chardmgs1 = int(chardmgs1)
@@ -1167,13 +1167,13 @@ def satinal2():
             panelalts.pack()
             panelalts.place(x=600,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat2:
                 chardmgs2 = chardmgs[item]
             chardmgs2 = int(chardmgs2)
@@ -1192,13 +1192,13 @@ def satinal2():
             panelalts.pack()
             panelalts.place(x=770,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat3:
                 chardmgs3 = chardmgs[item]
             chardmgs3 = int(chardmgs3)
@@ -1217,13 +1217,13 @@ def satinal2():
             panelalts.pack()
             panelalts.place(x=940,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat4:
                 chardmgs4 = chardmgs[item]
             chardmgs4 = int(chardmgs4)
@@ -1242,13 +1242,13 @@ def satinal2():
             panelalts.pack()
             panelalts.place(x=1110,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat5:
                 chardmgs5 = chardmgs[item]
             chardmgs5 = int(chardmgs5)
@@ -1267,13 +1267,13 @@ def satinal2():
             panelalts.pack()
             panelalts.place(x=1280,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat6:
                 chardmgs6 = chardmgs[item]
             chardmgs6 = int(chardmgs6)
@@ -1292,13 +1292,13 @@ def satinal2():
             panelalts.pack()
             panelalts.place(x=1450,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat7:
                 chardmgs7 = chardmgs[item]
             chardmgs7 = int(chardmgs7)
@@ -1309,10 +1309,10 @@ def satinal2():
         else:
             pass
 #############
-def satinal3():
+def buy3():
     global panelalt3
     global randomchar3
-    global satinal3button
+    global buy3button
     global cashprice3
     global cashalt3
     global cashtext
@@ -1327,7 +1327,7 @@ def satinal3():
         cashprice3.destroy()
         cashalt3.destroy()
         panelalt3.destroy()
-        satinal3button.destroy()
+        buy3button.destroy()
         char3_1.destroy()
         cashtext.destroy()
         cash = cash - charcashsint
@@ -1345,13 +1345,13 @@ def satinal3():
             panelalts.pack()
             panelalts.place(x=430,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat1:
                 chardmgs1 = chardmgs[item]
             chardmgs1 = int(chardmgs1)
@@ -1370,13 +1370,13 @@ def satinal3():
             panelalts.pack()
             panelalts.place(x=600,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat2:
                 chardmgs2 = chardmgs[item]
             chardmgs2 = int(chardmgs2)
@@ -1395,13 +1395,13 @@ def satinal3():
             panelalts.pack()
             panelalts.place(x=770,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat3:
                 chardmgs3 = chardmgs[item]
             chardmgs3 = int(chardmgs3)
@@ -1420,13 +1420,13 @@ def satinal3():
             panelalts.pack()
             panelalts.place(x=940,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat4:
                 chardmgs4 = chardmgs[item]
             chardmgs4 = int(chardmgs4)
@@ -1445,13 +1445,13 @@ def satinal3():
             panelalts.pack()
             panelalts.place(x=1110,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat5:
                 chardmgs5 = chardmgs[item]
             chardmgs5 = int(chardmgs5)
@@ -1470,13 +1470,13 @@ def satinal3():
             panelalts.pack()
             panelalts.place(x=1280,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat6:
                 chardmgs6 = chardmgs[item]
             chardmgs6 = int(chardmgs6)
@@ -1495,13 +1495,13 @@ def satinal3():
             panelalts.pack()
             panelalts.place(x=1450,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat7:
                 chardmgs7 = chardmgs[item]
             chardmgs7 = int(chardmgs7)
@@ -1513,10 +1513,10 @@ def satinal3():
         else:
             pass
 #############
-def satinal4():
+def buy4():
     global panelalt4
     global randomchar4
-    global satinal4button
+    global buy4button
     global cashprice4
     global cashalt4
     global cashtext
@@ -1532,7 +1532,7 @@ def satinal4():
         cashprice4.destroy()
         cashalt4.destroy()
         panelalt4.destroy()
-        satinal4button.destroy()
+        buy4button.destroy()
         char4_1.destroy()
         cashtext.destroy()
         cash = cash - charcashsint
@@ -1550,13 +1550,13 @@ def satinal4():
             panelalts.pack()
             panelalts.place(x=430,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat1:
                 chardmgs1 = chardmgs[item]
             chardmgs1 = int(chardmgs1)
@@ -1575,13 +1575,13 @@ def satinal4():
             panelalts.pack()
             panelalts.place(x=600,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat2:
                 chardmgs2 = chardmgs[item]
             chardmgs2 = int(chardmgs2)
@@ -1600,13 +1600,13 @@ def satinal4():
             panelalts.pack()
             panelalts.place(x=770,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat3:
                 chardmgs3 = chardmgs[item]
             chardmgs3 = int(chardmgs3)
@@ -1625,13 +1625,13 @@ def satinal4():
             panelalts.pack()
             panelalts.place(x=940,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat4:
                 chardmgs4 = chardmgs[item]
             chardmgs4 = int(chardmgs4)
@@ -1650,13 +1650,13 @@ def satinal4():
             panelalts.pack()
             panelalts.place(x=1110,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat5:
                 chardmgs5 = chardmgs[item]
             chardmgs5 = int(chardmgs5)
@@ -1675,13 +1675,13 @@ def satinal4():
             panelalts.pack()
             panelalts.place(x=1280,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat6:
                 chardmgs6 = chardmgs[item]
             chardmgs6 = int(chardmgs6)
@@ -1700,13 +1700,13 @@ def satinal4():
             panelalts.pack()
             panelalts.place(x=1450,y=657)
             update()
-            siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-            siyah = siyah.resize((50, 30))
-            siyah = ImageTk.PhotoImage(siyah)
-            siyahalt1 = Label(window, image=siyah, border=False)
-            siyahalt1.image = siyah
-            siyahalt1.pack()
-            siyahalt1.place(x=110,y=740)
+            black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+            black = black.resize((50, 30))
+            black = ImageTk.PhotoImage(black)
+            blackalt1 = Label(window, image=black, border=False)
+            blackalt1.image = black
+            blackalt1.pack()
+            blackalt1.place(x=110,y=740)
             for item in charinstat7:
                 chardmgs7 = chardmgs[item]
             chardmgs7 = int(chardmgs7)
@@ -1717,7 +1717,7 @@ def satinal4():
         else:
             pass
 #############
-def yenile():
+def refresh():
     global randomchar1
     global randomchar2
     global randomchar3
@@ -1730,10 +1730,10 @@ def yenile():
     global char2_1
     global char3_1
     global char4_1    
-    global satinal1button
-    global satinal2button
-    global satinal3button
-    global satinal4button
+    global buy1button
+    global buy2button
+    global buy3button
+    global buy4button
     global cashprice1
     global cashprice2
     global cashprice3
@@ -1765,26 +1765,26 @@ def yenile():
         panelalt2.destroy()
         panelalt3.destroy()
         panelalt4.destroy()
-        satinal1button.destroy()
-        satinal2button.destroy()
-        satinal3button.destroy()
-        satinal4button.destroy()
+        buy1button.destroy()
+        buy2button.destroy()
+        buy3button.destroy()
+        buy4button.destroy()
         cash = cash - 2
         cashtextt = Label(window, bg="black", fg="yellow", text=cash, font="Times 25") ####cash
         cashtextt.pack()
         cashtextt.place(x=340, y=900)
-        satinal1button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal1)
-        satinal1button.pack()
-        satinal1button.place(x=628, y=990)
-        satinal2button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal2)
-        satinal2button.pack()
-        satinal2button.place(x=848, y=990)
-        satinal3button = Button(window, width=14 , bg="red", fg="white", border=False , text="Buy" , command=satinal3)
-        satinal3button.pack()
-        satinal3button.place(x=1068, y=990)
-        satinal4button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal4)
-        satinal4button.pack()
-        satinal4button.place(x=1288, y=990)
+        buy1button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=buy1)
+        buy1button.pack()
+        buy1button.place(x=628, y=990)
+        buy2button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=buy2)
+        buy2button.pack()
+        buy2button.place(x=848, y=990)
+        buy3button = Button(window, width=14 , bg="red", fg="white", border=False , text="Buy" , command=buy3)
+        buy3button.pack()
+        buy3button.place(x=1068, y=990)
+        buy4button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=buy4)
+        buy4button.pack()
+        buy4button.place(x=1288, y=990)
         randomchar1 = random.choice(chars)
         randomchar2 = random.choice(chars)
         randomchar3 = random.choice(chars)
@@ -1881,7 +1881,7 @@ def yenile():
     else:
         pass
 #############
-def yenilenocash():
+def nocashrefresh():
     global randomchar1
     global randomchar2
     global randomchar3
@@ -1894,10 +1894,10 @@ def yenilenocash():
     global char2_1
     global char3_1
     global char4_1    
-    global satinal1button
-    global satinal2button
-    global satinal3button
-    global satinal4button
+    global buy1button
+    global buy2button
+    global buy3button
+    global buy4button
     global cashprice1
     global cashprice2
     global cashprice3
@@ -1928,11 +1928,11 @@ def yenilenocash():
     panelalt2.destroy()
     panelalt3.destroy()
     panelalt4.destroy()
-    satinal1button.destroy()
-    satinal2button.destroy()
-    satinal3button.destroy()
-    satinal4button.destroy()
-    refreshbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Refresh |   2" , command=yenile)
+    buy1button.destroy()
+    buy2button.destroy()
+    buy3button.destroy()
+    buy4button.destroy()
+    refreshbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Refresh |   2" , command=refresh)
     refreshbutton.pack()
     refreshbutton.place(x=1600,y=850)
     #############
@@ -1946,18 +1946,18 @@ def yenilenocash():
     fightbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Fight" , command=fight)
     fightbutton.pack()
     fightbutton.place(x=1600,y=882)
-    satinal1button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal1)
-    satinal1button.pack()
-    satinal1button.place(x=628, y=990)
-    satinal2button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal2)
-    satinal2button.pack()
-    satinal2button.place(x=848, y=990)
-    satinal3button = Button(window, width=14 , bg="red", fg="white", border=False , text="Buy" , command=satinal3)
-    satinal3button.pack()
-    satinal3button.place(x=1068, y=990)
-    satinal4button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal4)
-    satinal4button.pack()
-    satinal4button.place(x=1288, y=990)
+    buy1button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=buy1)
+    buy1button.pack()
+    buy1button.place(x=628, y=990)
+    buy2button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=buy2)
+    buy2button.pack()
+    buy2button.place(x=848, y=990)
+    buy3button = Button(window, width=14 , bg="red", fg="white", border=False , text="Buy" , command=buy3)
+    buy3button.pack()
+    buy3button.place(x=1068, y=990)
+    buy4button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=buy4)
+    buy4button.pack()
+    buy4button.place(x=1288, y=990)
     randomchar1 = random.choice(chars)
     randomchar2 = random.choice(chars)
     randomchar3 = random.choice(chars)
@@ -2045,13 +2045,13 @@ def yenilenocash():
     panelalt4.image = imgalt4
     panelalt4.pack()
     panelalt4.place(x=1290,y=847)
-    siyah = Image.open("C:/Users/"+ username+ "/Desktop/minigame/siyah.png")
-    siyah = siyah.resize((110, 30))
-    siyah = ImageTk.PhotoImage(siyah)
-    siyahalt1 = Label(window, image=siyah, border=False)
-    siyahalt1.image = siyah
-    siyahalt1.pack()
-    siyahalt1.place(x=1600,y=914)
+    black = Image.open("C:/Users/"+ username+ "/Desktop/minigame/black.png")
+    black = black.resize((110, 30))
+    black = ImageTk.PhotoImage(black)
+    blackalt1 = Label(window, image=black, border=False)
+    blackalt1.image = black
+    blackalt1.pack()
+    blackalt1.place(x=1600,y=914)
     wincash = 0
 
 
@@ -2114,22 +2114,22 @@ Label2.place(x=1870, y=5)
 ####################################################
 
 
-#kenarliklar
-solkenar = Image.open("C:/Users/"+ username+ "/Desktop/minigame/solkenarlik.png")
-solkenar = solkenar.resize((130, 700))
-solkenar = ImageTk.PhotoImage(solkenar)
-solkenarpanel = Label(window, image=solkenar, border=False)
-solkenarpanel.image = solkenar
-solkenarpanel.pack()
-solkenarpanel.place(x=7,y=140)
+#sides
+leftside = Image.open("C:/Users/"+ username+ "/Desktop/minigame/leftside.png")
+leftside = leftside.resize((130, 700))
+leftside = ImageTk.PhotoImage(leftside)
+leftsidepanel = Label(window, image=leftside, border=False)
+leftsidepanel.image = leftside
+leftsidepanel.pack()
+leftsidepanel.place(x=7,y=140)
 #############
-altkenar = Image.open("C:/Users/"+ username+ "/Desktop/minigame/altkenarlik.png")
-altkenar = altkenar.resize((1030, 200))
-altkenar = ImageTk.PhotoImage(altkenar)
-altkenarpanel = Label(window, image=altkenar, border=False)
-altkenarpanel.image = altkenar
-altkenarpanel.pack()
-altkenarpanel.place(x=500,y=800)
+bottom = Image.open("C:/Users/"+ username+ "/Desktop/minigame/bottom.png")
+bottom = bottom.resize((1030, 200))
+bottom = ImageTk.PhotoImage(bottom)
+bottompanel = Label(window, image=bottom, border=False)
+bottompanel.image = bottom
+bottompanel.pack()
+bottompanel.place(x=500,y=800)
 ####################################################
 
 #cash
@@ -2147,7 +2147,7 @@ cashtext.place(x=340, y=900)
 ####################################################
 
 
-#alt taraf
+#bottom
 char1_1 = Label(window, bg="black", fg="red", text=charstats[randomchar1], font="Times 12") ####suikastçı büyücü text
 char1_1.pack()
 char1_1.place(x=650, y=945)
@@ -2168,9 +2168,9 @@ panelalt1 = Label(window, image=imgalt1, border=False)
 panelalt1.image = imgalt1
 panelalt1.pack()
 panelalt1.place(x=630,y=847)
-satinal1button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal1)
-satinal1button.pack()
-satinal1button.place(x=628, y=990)
+buy1button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=buy1)
+buy1button.pack()
+buy1button.place(x=628, y=990)
 #############
 char2_1 = Label(window, bg="black", fg="red", text=charstats[randomchar2], font="Times 12") ####suikastçı büyücü text
 char2_1.pack()
@@ -2192,9 +2192,9 @@ panelalt2 = Label(window, image=imgalt2, border=False)
 panelalt2.image = imgalt2
 panelalt2.pack()
 panelalt2.place(x=850,y=847)
-satinal2button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal2)
-satinal2button.pack()
-satinal2button.place(x=848, y=990)
+buy2button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=buy2)
+buy2button.pack()
+buy2button.place(x=848, y=990)
 #############
 char3_1 = Label(window, bg="black", fg="red", text=charstats[randomchar3], font="Times 12") ####suikastçı büyücü text
 char3_1.pack()
@@ -2216,9 +2216,9 @@ panelalt3 = Label(window, image=imgalt3, border=False)
 panelalt3.image = imgalt3
 panelalt3.pack()
 panelalt3.place(x=1070,y=847)
-satinal3button = Button(window, width=14 , bg="red", fg="white", border=False , text="Buy" , command=satinal3)
-satinal3button.pack()
-satinal3button.place(x=1068, y=990)
+buy3button = Button(window, width=14 , bg="red", fg="white", border=False , text="Buy" , command=buy3)
+buy3button.pack()
+buy3button.place(x=1068, y=990)
 #############
 char4_1 = Label(window, bg="black", fg="red", text=charstats[randomchar4], font="Times 12") ####suikastçı büyücü text
 char4_1.pack()
@@ -2240,9 +2240,9 @@ panelalt4 = Label(window, image=imgalt4, border=False)
 panelalt4.image = imgalt4
 panelalt4.pack()
 panelalt4.place(x=1290,y=847)
-satinal4button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=satinal4)
-satinal4button.pack()
-satinal4button.place(x=1288, y=990)
+buy4button = Button(window, width=14, bg="red", fg="white", border=False , text="Buy" , command=buy4)
+buy4button.pack()
+buy4button.place(x=1288, y=990)
 ###################################################################
 
 #statbox
@@ -2303,7 +2303,7 @@ statalt7.pack()
 statalt7.place(x=1450,y=657)
 ###################################################################
 
-#statbox üst
+#statbox top
 stat1_2 = Image.open("C:/Users/"+ username+ "/Desktop/minigame/statbox2.png")
 stat1_2 = stat1_2.resize((100, 100))
 stat1_2 = ImageTk.PhotoImage(stat1_2)
@@ -2361,8 +2361,8 @@ statalt7_2.pack()
 statalt7_2.place(x=1450,y=157)
 ###################################################################
 
-#yenile
-refreshbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Refresh |   2" , command=yenile)
+#refresh
+refreshbutton = Button(window, width=14, bg="red", fg="white", border=False , text="Refresh |   2" , command=refresh)
 refreshbutton.pack()
 refreshbutton.place(x=1600,y=850)
 #############
@@ -2379,34 +2379,34 @@ fightbutton.pack()
 fightbutton.place(x=1600,y=882)
 ###################################################################
 
-#sat
-sat1button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat1)
-sat1button.pack()
-sat1button.place(x=430,y=767)
+#sell
+sellbutton1 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell1)
+sellbutton1.pack()
+sellbutton1.place(x=430,y=767)
 #############
-sat2button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat2)
-sat2button.pack()
-sat2button.place(x=600,y=767)
+sellbutton2 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell2)
+sellbutton2.pack()
+sellbutton2.place(x=600,y=767)
 #############
-sat3button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat3)
-sat3button.pack()
-sat3button.place(x=770,y=767)
+sellbutton3 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell3)
+sellbutton3.pack()
+sellbutton3.place(x=770,y=767)
 #############
-sat4button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat4)
-sat4button.pack()
-sat4button.place(x=940,y=767)
+sellbutton4 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell4)
+sellbutton4.pack()
+sellbutton4.place(x=940,y=767)
 #############
-sat5button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat5)
-sat5button.pack()
-sat5button.place(x=1110,y=767)
+sellbutton5 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell5)
+sellbutton5.pack()
+sellbutton5.place(x=1110,y=767)
 #############
-sat6button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat6)
-sat6button.pack()
-sat6button.place(x=1280,y=767)
+sellbutton6 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell6)
+sellbutton6.pack()
+sellbutton6.place(x=1280,y=767)
 #############
-sat7button = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sat7)
-sat7button.pack()
-sat7button.place(x=1450,y=767)
+sellbutton7 = Button(window, width=14, bg="purple", fg="white", border=False , text="Sell" , command=sell7)
+sellbutton7.pack()
+sellbutton7.place(x=1450,y=767)
 ###################################################################
 
 #stats
