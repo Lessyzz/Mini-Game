@@ -15,6 +15,8 @@ You shouldn't change to any pictures names.
 
 That's all have fun!
 
+That's my old project. So there are so many unnecessary lines. I was not know OOP.
+
 --------
 
 𝐀𝐥𝐬𝐨
